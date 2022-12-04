@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Memo
+
+npm install -D tailwindcss postcss
+npx tailwindcss init -p
+
+https://tailwindcss.com/docs/guides/create-react-app
+
+to make API Call, we will use AXIOS, and we need firebase
+
+`npm install axios react-router-dom firebase tailwind-scrollbar-hide react-icons`
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
