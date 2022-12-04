@@ -13,8 +13,9 @@ to make API Call, we will use AXIOS, and we need firebase
 
 `npm install axios react-router-dom firebase tailwind-scrollbar-hide react-icons`
 
-https://www.themoviedb.org/documentation/api
+For the API : https://www.themoviedb.org/documentation/api
 ask for API Key
+More information on : https://developers.themoviedb.org/4/getting-started/authorization
 
 
 ## Available Scripts
