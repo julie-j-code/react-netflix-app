@@ -17,6 +17,27 @@ For the API : https://www.themoviedb.org/documentation/api
 ask for API Key
 More information on : https://developers.themoviedb.org/4/getting-started/authorization
 
+For Firebase, create a firebase.js in src with configuration options needed
+Create a .env on root folder to secure it with :
+REACT_APP_FIREBASE_API_KEY=
+REACT_APP_FIREBASE_AUTH_DOMAIN=
+REACT_APP_FIREBASE_PROJECT_ID=
+REACT_APP_FIREBASE_STORAGE_BUCKET=
+REACT_APP_MESSAGIN_SENDER=
+REACT_APP_APP_ID=
+So, in your firebase.js, you will set :
+const firebaseConfig = {
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER,
+  appId: process.env.REACT_APP_APP_ID
+};
+
+the hook createContext from react will we the best way to create a AuthContext that all components can use
+Everything needed is in AuthContext.js
+
 
 ## Available Scripts
 
